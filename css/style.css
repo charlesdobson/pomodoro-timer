@@ -1,19 +1,35 @@
+/* COLOURS FROM ATOM.IO 
+Blue - #659CC8
+Yellow - #DCA032
+Red - #C13F20
+Green - #78AE9F
+Orange - #D36E2D
+Brown - #584B4F
+Dark-Grey - #343436
+Light Biege - #EFEAE0
+Biege - #EFD9B9
+*/
+
+/* Blue/Yellow colour scheme
+Blue - background-color: #2F4858;
+White Text - color: #FCFCFC;
+Light blue (button) - background-color: #86BBD8;
+Blue (button hover) - background-color: #33658A;
+Yellow (timer) - color: #F6AE2D;
+*/
+
 body,html {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #3B4252;
+    background-color: #343436;
+    
 }
 
 h1 {
-    color: #ECEFF4;
+    color: #EFEAE0;
     padding-left: 3vw;
     font-size: 3vw;
-}
-
-h2 {
-    color: #ECEFF4;
-    font-size: 6vw;
 }
 
 #container {
@@ -35,8 +51,8 @@ h2 {
 }
 
 #settings button {
-    background-color: #ECEFF4;
-    color: #3B4252;
+    background-color: #D36E2D;
+    color: #EFEAE0;
     border: none;
     border-radius: 1vw;
     padding: 1vw 1vw;
@@ -48,7 +64,9 @@ h2 {
 }
 
 #settings button:hover {
-    background-color: #8FBCBB;
+    /* background-color: #C13F20; */
+    background-color: #C13F20;
+    cursor: pointer;
 }
 
 #timer {
@@ -61,7 +79,7 @@ h2 {
 #time {
     display: inline-block;
     margin: auto;
-    color: #ECEFF4;
+    color: #DCA032;
     font-weight: bold;
     font-size: 6vw;
 }
@@ -74,8 +92,8 @@ h2 {
 }
 
 #controls button {
-    background-color: #ECEFF4;
-    color: #3B4252;
+    background-color: #C13F20;
+    color: #EFEAE0;
     border: none;
     border-radius: 1vw;
     padding: 1vw 1vw;
@@ -87,5 +105,6 @@ h2 {
 }
 
 #controls button:hover {
-    background-color: #8FBCBB;
+    background-color: rgb(155, 52, 26);
+    cursor: pointer;
 }
