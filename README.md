@@ -1,4 +1,4 @@
-# To-Do List
+# Pomodoro Timer
 This is a simple pomodoro timer application built in HTML, CSS, and Javascript. It allows the user to start a pomodoro timer for 25 minutes, take a short break of 5 mintues, or take a long break of 15 minutes.
 
 # Motivation
